@@ -1,7 +1,7 @@
 module.exports = {
-  entry: './app.js',
+  entry: './static/js/index.jsx',
   output: {
-    path: __dirname,
+    path: __dirname + "/static/js",
     filename: "bundle.js"
   },
   watch: true,
