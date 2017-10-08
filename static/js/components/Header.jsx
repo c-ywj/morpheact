@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class CompTwo extends Component {
+class Header extends Component {
 
   render() {
     return (
-      <div>
+      <div >
         <nav>
           <div className="nav-wrapper">
             <a href="#" className="brand-logo">Logo</a>
@@ -21,4 +21,4 @@ class CompTwo extends Component {
 
 }
 
-export default CompTwo;
+export default Header;

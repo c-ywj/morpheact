@@ -1,5 +1,10 @@
+"use strict";
+
+
 import React, { Component } from 'react';
-import CompTwo from './components/CompTwo.jsx';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import MainContent from './components/MainContent.jsx';
 
 class App extends Component {
 
@@ -14,7 +19,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <CompTwo name={this.state.color}/>
+        <Header />
+        <MainContent />
+        <Footer />
       </div>
     )
   }
