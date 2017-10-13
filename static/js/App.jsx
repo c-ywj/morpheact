@@ -11,16 +11,27 @@ class App extends Component {
   constructor(props) {
     super(props)
       this.state = {
-        color :
-          "blackkkkk"
-      }
+        color : "blackkkkk",
+        name : "cy",
+        pics: {
+        }
+    }
+  }
+
+  userInput(ev) {
+    this.setState({
+      name: ev.target.value
+    });
   }
 
   render() {
+    console.log(this.state);
     return (
       <div>
         <Header />
-        <MainContent />
+        <MainContent userInput={this.userInput.bind(this)}
+                     currentName={this.state.name}
+         />
         <Footer />
       </div>
     )

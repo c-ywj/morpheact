@@ -22436,19 +22436,31 @@ var App = function (_Component) {
     var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
 
     _this.state = {
-      color: "blackkkkk"
+      color: "blackkkkk",
+      name: "cy",
+      pics: {}
     };
     return _this;
   }
 
   _createClass(App, [{
+    key: 'userInput',
+    value: function userInput(ev) {
+      this.setState({
+        name: ev.target.value
+      });
+    }
+  }, {
     key: 'render',
     value: function render() {
+      console.log(this.state);
       return _react2.default.createElement(
         'div',
         null,
         _react2.default.createElement(_Header2.default, null),
-        _react2.default.createElement(_MainContent2.default, null),
+        _react2.default.createElement(_MainContent2.default, { userInput: this.userInput.bind(this),
+          currentName: this.state.name
+        }),
         _react2.default.createElement(_Footer2.default, null)
       );
     }
@@ -22591,7 +22603,7 @@ var Footer = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         "footer",
-        { id: "footer", className: "page-footer" },
+        { className: "page-footer" },
         _react2.default.createElement(
           "div",
           { className: "container" },
@@ -22727,7 +22739,53 @@ var MainContent = function (_Component) {
   _createClass(MainContent, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(_Salebox2.default, null);
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'div',
+          { className: 'parallax-container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'parallax' },
+            _react2.default.createElement('img', { src: '/static/images/parallax1.jpg' })
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'section white' },
+          _react2.default.createElement(
+            'div',
+            { className: 'row container' },
+            _react2.default.createElement(
+              'h2',
+              { className: 'header' },
+              'Parallax'
+            ),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement('input', { onChange: this.props.userInput }),
+            _react2.default.createElement(
+              'p',
+              null,
+              this.props.currentName
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'grey-text text-darken-3 lighten-3' },
+              'Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'parallax-container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'parallax' },
+            _react2.default.createElement('img', { src: '/static/images/parallax2.jpg' })
+          )
+        )
+      );
     }
   }]);
 
@@ -22775,11 +22833,11 @@ var SaleBox = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         "div",
-        { id: "body", className: "card" },
+        { className: "card" },
         _react2.default.createElement(
           "div",
           { className: "card-image waves-effect waves-block waves-light" },
-          _react2.default.createElement("img", { className: "activator", src: "images/office.jpg" })
+          _react2.default.createElement("img", { className: "activator", src: "/static/images/contact-bg.jpg" })
         ),
         _react2.default.createElement(
           "div",
@@ -22820,7 +22878,7 @@ var SaleBox = function (_Component) {
           _react2.default.createElement(
             "p",
             null,
-            "Here is some more information about this product that is only revealed once clicked on."
+            "NOOO INFO"
           )
         )
       );

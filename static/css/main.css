@@ -15,3 +15,16 @@ main {
 .card {
   display: inline-block;
 }
+
+.parallax {
+
+  background-image: url('/static/images/parallax1.jpg');
+  min-height: 700px;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
