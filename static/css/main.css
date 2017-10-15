@@ -1,25 +1,18 @@
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 0 auto;
-}
-
 .testparagraph {
   color: purple;
 }
 
 .card {
   display: inline-block;
+  margin: 20px 37px;
+  box-shadow: -3px -3px 7px grey;
+  max-height: 50%;
 }
 
 .parallax {
 
   background-image: url('/static/images/parallax1.jpg');
-  min-height: 700px;
+  min-height: 800px;
 
   background-attachment: fixed;
   background-size: cover;
@@ -27,4 +20,28 @@ main {
   background-position: center;
 
 
+}
+
+.pdctImg img {
+  max-width: 300px;
+  max-height: 300px:;
+}
+
+.content {
+  text-align: center;
+  background-color: white;
+  position: relative;
+  top: 150px;
+  min-height: 500px;
+  z-index: 50;
+  margin-bottom: 20px;
+}
+
+nav {
+  position: fixed;
+  z-index: 100;
+}
+
+footer {
+  margin-top: 300px;
 }

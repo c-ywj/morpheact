@@ -22510,7 +22510,7 @@ var Header = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         "div",
-        null,
+        { className: "header" },
         _react2.default.createElement(
           "nav",
           null,
@@ -22520,7 +22520,7 @@ var Header = function (_Component) {
             _react2.default.createElement(
               "a",
               { href: "#", className: "brand-logo" },
-              "Logo"
+              "Scale'd Origin"
             ),
             _react2.default.createElement(
               "ul",
@@ -22531,7 +22531,7 @@ var Header = function (_Component) {
                 _react2.default.createElement(
                   "a",
                   { href: "sass.html" },
-                  "Sass"
+                  "Products"
                 )
               ),
               _react2.default.createElement(
@@ -22540,7 +22540,7 @@ var Header = function (_Component) {
                 _react2.default.createElement(
                   "a",
                   { href: "badges.html" },
-                  "Components"
+                  "About Us"
                 )
               ),
               _react2.default.createElement(
@@ -22549,7 +22549,7 @@ var Header = function (_Component) {
                 _react2.default.createElement(
                   "a",
                   { href: "collapsible.html" },
-                  "JavaScript"
+                  "Contact Us"
                 )
               )
             )
@@ -22744,45 +22744,34 @@ var MainContent = function (_Component) {
         null,
         _react2.default.createElement(
           'div',
-          { className: 'parallax-container' },
+          { className: 'parallax' },
           _react2.default.createElement(
             'div',
-            { className: 'parallax' },
-            _react2.default.createElement('img', { src: '/static/images/parallax1.jpg' })
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'section white' },
-          _react2.default.createElement(
-            'div',
-            { className: 'row container' },
-            _react2.default.createElement(
-              'h2',
-              { className: 'header' },
-              'Parallax'
-            ),
+            { className: 'content' },
             _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement('input', { onChange: this.props.userInput }),
-            _react2.default.createElement(
-              'p',
-              null,
-              this.props.currentName
-            ),
-            _react2.default.createElement(
-              'p',
-              { className: 'grey-text text-darken-3 lighten-3' },
-              'Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.'
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'parallax-container' },
-          _react2.default.createElement(
-            'div',
-            { className: 'parallax' },
-            _react2.default.createElement('img', { src: '/static/images/parallax2.jpg' })
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null),
+            _react2.default.createElement(_Salebox2.default, null)
           )
         )
       );
@@ -22836,7 +22825,7 @@ var SaleBox = function (_Component) {
         { className: "card" },
         _react2.default.createElement(
           "div",
-          { className: "card-image waves-effect waves-block waves-light" },
+          { className: "pdctImg" },
           _react2.default.createElement("img", { className: "activator", src: "/static/images/contact-bg.jpg" })
         ),
         _react2.default.createElement(

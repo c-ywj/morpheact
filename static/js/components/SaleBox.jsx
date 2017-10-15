@@ -5,7 +5,7 @@ class SaleBox extends Component {
   render() {
     return (
       <div className="card">
-        <div className="card-image waves-effect waves-block waves-light">
+        <div className="pdctImg">
           <img className="activator" src="/static/images/contact-bg.jpg" />
         </div>
         <div className="card-content">
