@@ -22747,31 +22747,52 @@ var MainContent = function (_Component) {
           { className: 'parallax' },
           _react2.default.createElement(
             'div',
-            { className: 'content' },
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null),
-            _react2.default.createElement(_Salebox2.default, null)
+            { id: 'content' },
+            _react2.default.createElement(_Salebox2.default, { className: 'saleBox' }),
+            _react2.default.createElement(_Salebox2.default, { className: 'saleBox' }),
+            _react2.default.createElement(_Salebox2.default, { className: 'saleBox' }),
+            _react2.default.createElement(
+              'div',
+              { className: 'about hidden' },
+              _react2.default.createElement(
+                'h1',
+                null,
+                'this is the heading'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'paragraphblock' },
+                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'about hidden' },
+              _react2.default.createElement(
+                'h1',
+                null,
+                'this is the heading'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'paragraphblock' },
+                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'about hidden' },
+              _react2.default.createElement(
+                'h1',
+                null,
+                'this is the heading'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'paragraphblock' },
+                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+              )
+            )
           )
         )
       );
