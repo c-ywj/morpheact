@@ -5,25 +5,44 @@ class MainContent extends Component {
 
   render() {
     return (
-      <div>
-        <div className='parallax'>
-          <div id='content'>
-            <SaleBox className='saleBox'/>
-            <SaleBox className='saleBox'/>
-            <SaleBox className='saleBox'/>
-            <div className='about hidden'>
-              <h1>this is the heading</h1>
-              <p className='paragraphblock'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div id='MainContent'>
+        <div className='block red' id='red'>
+          <nav className='pushpin-nav red' data-target='red'>
+            <div className="nav-wrapper">
+              <a href="#" className="brand-logo">Logo</a>
+              <ul id="nav-mobile" className="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">JavaScript</a></li>
+              </ul>
             </div>
-            <div className='about hidden'>
-              <h1>this is the heading</h1>
-              <p className='paragraphblock'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </nav>
+        </div>
+
+        <div className='block green' id='green'>
+          <nav className='pushpin-nav green' data-target='green'>
+            <div className="nav-wrapper">
+              <a href="#" className="brand-logo">Logo</a>
+              <ul id="nav-mobile" className="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">JavaScript</a></li>
+              </ul>
             </div>
-            <div className='about hidden'>
-              <h1>this is the heading</h1>
-              <p className='paragraphblock'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </nav>
+        </div>
+
+        <div className='block blue' id='blue'>
+          <nav className='pushpin-nav blue' data-target='blue'>
+            <div className="nav-wrapper">
+              <a href="#" className="brand-logo">Logo</a>
+              <ul id="nav-mobile" className="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">JavaScript</a></li>
+              </ul>
             </div>
-          </div>
+          </nav>
         </div>
       </div>
     )

@@ -1,14 +1,29 @@
-.card {
-  display: inline-block;
-  margin: 20px 37px;
-  box-shadow: -3px -3px 7px grey;
-  max-height: 50%;
 
-  height: 900px;
-  margin-bottom: 300px;
-  border-bottom: 3px red solid;
-
+html, body, .block {
+  height: 800px;
 }
+
+
+/*div.header {
+  position: fixed;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 150px;
+
+  background-color: #0ff;
+
+  z-index: 100;
+}
+
+nav {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  border: 1px solid black;
+  height: 100%;
+}
+
 
 .parallax {
 
@@ -20,6 +35,37 @@
   background-repeat: no-repeat;
   background-position: center;
 
+  margin: 7em auto;
+
+}
+
+.parallaxTwo {
+
+  background-image: url('/static/images/parallax2.jpg');
+  min-height: 800px;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#MainContent {
+  margin: 0 auto;
+  padding: 1em 0;
+
+}
+
+.card {
+  display: inline-block;
+  margin: 20px 37px;
+  box-shadow: -3px -3px 7px grey;
+  max-height: 50%;
+
+  height: 900px;
+  margin-bottom: 300px;
+  border-bottom: 3px red solid;
 }
 
 .pdctImg img {
@@ -36,19 +82,31 @@ div#content {
   margin-bottom: 20px;
   width: 100%;
 
-  background-color: white;
-}
 
-nav {
-  position: fixed;
-  z-index: 100;
+  background-color: white;
+  opacity: 0.8;
 }
 
 footer {
   margin-top: 300px;
+}*/
+
+/*Class for when element is above threshold*/
+.pin-top {
+  position: relative;
 }
 
-.about {
+/*Class for when element is below threshold*/
+.pin-bottom {
+  position: relative;
+}
+
+/*Class for when element is pinned*/
+.pinned {
+  position: fixed !important;
+}
+
+/*.about {
   height: 500px;
   margin: 0 auto;
   padding: 100px 0;
@@ -73,5 +131,5 @@ footer {
 .about.hidden p, .about.hidden h1{
   opacity: 0;
   -webkit-transform: translate3d(100px,100px,100px) rotateY(-40deg);
-}
+}*/
 

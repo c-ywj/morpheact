@@ -22520,7 +22520,7 @@ var Header = function (_Component) {
             _react2.default.createElement(
               "a",
               { href: "#", className: "brand-logo" },
-              "Scale'd Origin"
+              "Logo"
             ),
             _react2.default.createElement(
               "ul",
@@ -22531,7 +22531,7 @@ var Header = function (_Component) {
                 _react2.default.createElement(
                   "a",
                   { href: "sass.html" },
-                  "Products"
+                  "Sass"
                 )
               ),
               _react2.default.createElement(
@@ -22540,7 +22540,7 @@ var Header = function (_Component) {
                 _react2.default.createElement(
                   "a",
                   { href: "badges.html" },
-                  "About Us"
+                  "Components"
                 )
               ),
               _react2.default.createElement(
@@ -22549,7 +22549,7 @@ var Header = function (_Component) {
                 _react2.default.createElement(
                   "a",
                   { href: "collapsible.html" },
-                  "Contact Us"
+                  "JavaScript"
                 )
               )
             )
@@ -22741,56 +22741,147 @@ var MainContent = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        null,
+        { id: 'MainContent' },
         _react2.default.createElement(
           'div',
-          { className: 'parallax' },
+          { className: 'block red', id: 'red' },
           _react2.default.createElement(
-            'div',
-            { id: 'content' },
-            _react2.default.createElement(_Salebox2.default, { className: 'saleBox' }),
-            _react2.default.createElement(_Salebox2.default, { className: 'saleBox' }),
-            _react2.default.createElement(_Salebox2.default, { className: 'saleBox' }),
+            'nav',
+            { className: 'pushpin-nav red', 'data-target': 'red' },
             _react2.default.createElement(
               'div',
-              { className: 'about hidden' },
+              { className: 'nav-wrapper' },
               _react2.default.createElement(
-                'h1',
-                null,
-                'this is the heading'
+                'a',
+                { href: '#', className: 'brand-logo' },
+                'Logo'
               ),
               _react2.default.createElement(
-                'p',
-                { className: 'paragraphblock' },
-                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+                'ul',
+                { id: 'nav-mobile', className: 'right hide-on-med-and-down' },
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'sass.html' },
+                    'Sass'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'badges.html' },
+                    'Components'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'collapsible.html' },
+                    'JavaScript'
+                  )
+                )
               )
-            ),
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'block green', id: 'green' },
+          _react2.default.createElement(
+            'nav',
+            { className: 'pushpin-nav green', 'data-target': 'green' },
             _react2.default.createElement(
               'div',
-              { className: 'about hidden' },
+              { className: 'nav-wrapper' },
               _react2.default.createElement(
-                'h1',
-                null,
-                'this is the heading'
+                'a',
+                { href: '#', className: 'brand-logo' },
+                'Logo'
               ),
               _react2.default.createElement(
-                'p',
-                { className: 'paragraphblock' },
-                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+                'ul',
+                { id: 'nav-mobile', className: 'right hide-on-med-and-down' },
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'sass.html' },
+                    'Sass'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'badges.html' },
+                    'Components'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'collapsible.html' },
+                    'JavaScript'
+                  )
+                )
               )
-            ),
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'block blue', id: 'blue' },
+          _react2.default.createElement(
+            'nav',
+            { className: 'pushpin-nav blue', 'data-target': 'blue' },
             _react2.default.createElement(
               'div',
-              { className: 'about hidden' },
+              { className: 'nav-wrapper' },
               _react2.default.createElement(
-                'h1',
-                null,
-                'this is the heading'
+                'a',
+                { href: '#', className: 'brand-logo' },
+                'Logo'
               ),
               _react2.default.createElement(
-                'p',
-                { className: 'paragraphblock' },
-                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+                'ul',
+                { id: 'nav-mobile', className: 'right hide-on-med-and-down' },
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'sass.html' },
+                    'Sass'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'badges.html' },
+                    'Components'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'collapsible.html' },
+                    'JavaScript'
+                  )
+                )
               )
             )
           )
