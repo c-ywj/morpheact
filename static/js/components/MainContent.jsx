@@ -7,10 +7,7 @@ class MainContent extends Component {
     return (
       <div id='MainContent'>
 
-        <div>
-        <div>
-
-        <div className='block red' id='red'>
+        <div   className='block red' id='red'>
           <nav className='pushpin-nav red' data-target='red'>
             <div className="nav-wrapper">
               <a href="#" className="brand-logo">project 1</a>
