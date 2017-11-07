@@ -7,8 +7,9 @@ class MainContent extends Component {
     return (
       <div id='MainContent'>
 
-        <div>
-        <div>
+        <div className='sectionOne parallax'>
+        <h1>section one</h1>
+        </div>
 
         <div className='block red' id='red'>
           <nav className='pushpin-nav red' data-target='red'>
@@ -47,6 +48,13 @@ class MainContent extends Component {
               </ul>
             </div>
           </nav>
+        </div>
+
+        <div className='sectionTwo'>
+          <h1>section two</h1>
+        </div>
+                <div className='sectionTwo'>
+          <h1>section two</h1>
         </div>
 
       </div>

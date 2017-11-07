@@ -12,6 +12,7 @@ $().ready(() => {
   //   }
   // });
 
+
   $('.pushpin-nav').each(function() {
     var $this = $(this);
     var $target = $('#' + $(this).attr('data-target'));
@@ -20,5 +21,7 @@ $().ready(() => {
       bottom: $target.offset().top + $target.outerHeight() - $this.height()
     });
   });
+
+
 
 })

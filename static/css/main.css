@@ -3,7 +3,41 @@ html, body, .block {
   height: 500px;
 }
 
+div.sectionOne {
+  height: 500px;
+  background-color: #C0C0C0;
+}
 
+.parallax {
+
+  background-image: url('/static/images/parallax1.jpg');
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin: 0 auto;
+
+}
+
+div.sectionTwo {
+  height: 490px;
+  background-color: grey;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+div.header nav {
+  background-color: cyan;
+}
+
+.nav-slide {
+  transform: translateY(10px;);
+}
 /*div.header {
   position: fixed;
   margin: 0 auto;
@@ -22,21 +56,6 @@ nav {
   padding: 0.5em 1em;
   border: 1px solid black;
   height: 100%;
-}
-
-
-.parallax {
-
-  background-image: url('/static/images/parallax1.jpg');
-  min-height: 800px;
-
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  margin: 7em auto;
-
 }
 
 .parallaxTwo {

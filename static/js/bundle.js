@@ -22700,10 +22700,323 @@ exports.default = Footer;
 
 /***/ }),
 /* 187 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-throw new Error("Module build failed: SyntaxError: Unterminated JSX contents (52:12)\n\n\u001b[0m \u001b[90m 50 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 51 | \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 52 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 53 | \u001b[39m    )\n \u001b[90m 54 | \u001b[39m  }\n \u001b[90m 55 | \u001b[39m\u001b[0m\n");
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(16);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Salebox = __webpack_require__(188);
+
+var _Salebox2 = _interopRequireDefault(_Salebox);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var MainContent = function (_Component) {
+  _inherits(MainContent, _Component);
+
+  function MainContent() {
+    _classCallCheck(this, MainContent);
+
+    return _possibleConstructorReturn(this, (MainContent.__proto__ || Object.getPrototypeOf(MainContent)).apply(this, arguments));
+  }
+
+  _createClass(MainContent, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { id: 'MainContent' },
+        _react2.default.createElement(
+          'div',
+          { className: 'sectionOne parallax' },
+          _react2.default.createElement(
+            'h1',
+            null,
+            'section one'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'block red', id: 'red' },
+          _react2.default.createElement(
+            'nav',
+            { className: 'pushpin-nav red', 'data-target': 'red' },
+            _react2.default.createElement(
+              'div',
+              { className: 'nav-wrapper' },
+              _react2.default.createElement(
+                'a',
+                { href: '#', className: 'brand-logo' },
+                'project 1'
+              ),
+              _react2.default.createElement(
+                'ul',
+                { id: 'nav-mobile', className: 'right hide-on-med-and-down' },
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'sass.html' },
+                    'Sass'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'badges.html' },
+                    'Components'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'collapsible.html' },
+                    'JavaScript'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'block green', id: 'green' },
+          _react2.default.createElement(
+            'nav',
+            { className: 'pushpin-nav green', 'data-target': 'green' },
+            _react2.default.createElement(
+              'div',
+              { className: 'nav-wrapper' },
+              _react2.default.createElement(
+                'a',
+                { href: '#', className: 'brand-logo' },
+                'project 2'
+              ),
+              _react2.default.createElement(
+                'ul',
+                { id: 'nav-mobile', className: 'right hide-on-med-and-down' },
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'sass.html' },
+                    'Sass'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'badges.html' },
+                    'Components'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'collapsible.html' },
+                    'JavaScript'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'block blue', id: 'blue' },
+          _react2.default.createElement(
+            'nav',
+            { className: 'pushpin-nav blue', 'data-target': 'blue' },
+            _react2.default.createElement(
+              'div',
+              { className: 'nav-wrapper' },
+              _react2.default.createElement(
+                'a',
+                { href: '#', className: 'brand-logo' },
+                'project 3'
+              ),
+              _react2.default.createElement(
+                'ul',
+                { id: 'nav-mobile', className: 'right hide-on-med-and-down' },
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'sass.html' },
+                    'Sass'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'badges.html' },
+                    'Components'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'collapsible.html' },
+                    'JavaScript'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'sectionTwo' },
+          _react2.default.createElement(
+            'h1',
+            null,
+            'section two'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'sectionTwo' },
+          _react2.default.createElement(
+            'h1',
+            null,
+            'section two'
+          )
+        )
+      );
+    }
+  }]);
+
+  return MainContent;
+}(_react.Component);
+
+exports.default = MainContent;
+
+/***/ }),
+/* 188 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(16);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SaleBox = function (_Component) {
+  _inherits(SaleBox, _Component);
+
+  function SaleBox() {
+    _classCallCheck(this, SaleBox);
+
+    return _possibleConstructorReturn(this, (SaleBox.__proto__ || Object.getPrototypeOf(SaleBox)).apply(this, arguments));
+  }
+
+  _createClass(SaleBox, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "card" },
+        _react2.default.createElement(
+          "div",
+          { className: "pdctImg" },
+          _react2.default.createElement("img", { className: "activator", src: "/static/images/contact-bg.jpg" })
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "card-content" },
+          _react2.default.createElement(
+            "span",
+            { className: "card-title activator grey-text text-darken-4" },
+            "Card Title",
+            _react2.default.createElement(
+              "i",
+              { className: "material-icons right" },
+              "more_vert"
+            )
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            _react2.default.createElement(
+              "a",
+              { href: "#" },
+              "This is a link"
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "card-reveal" },
+          _react2.default.createElement(
+            "span",
+            { className: "card-title grey-text text-darken-4" },
+            "Card Title",
+            _react2.default.createElement(
+              "i",
+              { className: "material-icons right" },
+              "close"
+            )
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            "NOOO INFO"
+          )
+        )
+      );
+    }
+  }]);
+
+  return SaleBox;
+}(_react.Component);
+
+exports.default = SaleBox;
 
 /***/ })
 /******/ ]);
