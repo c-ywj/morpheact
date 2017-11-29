@@ -22509,50 +22509,113 @@ var Header = function (_Component) {
     key: "render",
     value: function render() {
       return _react2.default.createElement(
-        "div",
-        { className: "header" },
+        "header",
+        { id: "home" },
         _react2.default.createElement(
-          "nav",
-          null,
+          "div",
+          { id: "home-slider", className: "carousel slide carousel-fade", "data-ride": "carousel" },
           _react2.default.createElement(
             "div",
-            { className: "nav-wrapper" },
+            { className: "carousel-inner" },
             _react2.default.createElement(
-              "a",
-              { href: "#", className: "brand-logo" },
-              "Logo"
+              "div",
+              { className: "item active", style: { backgroundImage: 'url(/static/images/gt3rs.jpg)' } },
+              _react2.default.createElement(
+                "div",
+                { className: "caption" },
+                _react2.default.createElement(
+                  "h1",
+                  { className: "animated fadeInLeftBig" },
+                  "Welcome to ",
+                  _react2.default.createElement(
+                    "span",
+                    null,
+                    "Oxygen"
+                  )
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: "animated fadeInRightBig" },
+                  "Bootstrap - Responsive Design - Retina Ready - Parallax"
+                ),
+                _react2.default.createElement(
+                  "a",
+                  { "data-scroll": true, className: "btn btn-start animated fadeInUpBig", href: "#services" },
+                  "Start now"
+                )
+              )
             ),
             _react2.default.createElement(
-              "ul",
-              { id: "nav-mobile", className: "right hide-on-med-and-down" },
+              "div",
+              { className: "item", style: { backgroundImage: 'url(/static/images/2.jpg)' } },
               _react2.default.createElement(
-                "li",
-                null,
+                "div",
+                { className: "caption" },
+                _react2.default.createElement(
+                  "h1",
+                  { className: "animated fadeInLeftBig" },
+                  "Say Hello to ",
+                  _react2.default.createElement(
+                    "span",
+                    null,
+                    "Oxygen"
+                  )
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: "animated fadeInRightBig" },
+                  "Bootstrap - Responsive Design - Retina Ready - Parallax"
+                ),
                 _react2.default.createElement(
                   "a",
-                  { href: "sass.html" },
-                  "Sass"
+                  { "data-scroll": true, className: "btn btn-start animated fadeInUpBig", href: "#services" },
+                  "Start now"
                 )
-              ),
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "item", style: { backgroundImage: 'url(/static/images/3.jpg)' } },
               _react2.default.createElement(
-                "li",
-                null,
+                "div",
+                { className: "caption" },
+                _react2.default.createElement(
+                  "h1",
+                  { className: "animated fadeInLeftBig" },
+                  "We are ",
+                  _react2.default.createElement(
+                    "span",
+                    null,
+                    "Creative"
+                  )
+                ),
+                _react2.default.createElement(
+                  "p",
+                  { className: "animated fadeInRightBig" },
+                  "Bootstrap - Responsive Design - Retina Ready - Parallax"
+                ),
                 _react2.default.createElement(
                   "a",
-                  { href: "badges.html" },
-                  "Components"
-                )
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                _react2.default.createElement(
-                  "a",
-                  { href: "collapsible.html" },
-                  "JavaScript"
+                  { "data-scroll": true, className: "btn btn-start animated fadeInUpBig", href: "#services" },
+                  "Start now"
                 )
               )
             )
+          ),
+          _react2.default.createElement(
+            "a",
+            { className: "left-control", href: "#home-slider", "data-slide": "prev" },
+            _react2.default.createElement("i", { className: "fa fa-angle-left" })
+          ),
+          _react2.default.createElement(
+            "a",
+            { className: "right-control", href: "#home-slider", "data-slide": "next" },
+            _react2.default.createElement("i", { className: "fa fa-angle-right" })
+          ),
+          _react2.default.createElement(
+            "a",
+            { id: "tohash", href: "#services" },
+            _react2.default.createElement("i", { className: "fa fa-angle-down" })
           )
         )
       );

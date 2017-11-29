@@ -31,84 +31,6 @@ h1 {
   margin: 0 auto;
 }
 
-div.header nav {
-  background-color: cyan;
-}
-
-.nav-slide {
-  transform: translateY(10px;);
-}
-/*div.header {
-  position: fixed;
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-  height: 150px;
-
-  background-color: #0ff;
-
-  z-index: 100;
-}
-
-nav {
-  display: block;
-  margin: 0 auto;
-  padding: 0.5em 1em;
-  border: 1px solid black;
-  height: 100%;
-}
-
-.parallaxTwo {
-
-  background-image: url('/static/images/parallax2.jpg');
-  min-height: 800px;
-
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-#MainContent {
-  margin: 0 auto;
-  padding: 1em 0;
-
-}
-
-.card {
-  display: inline-block;
-  margin: 20px 37px;
-  box-shadow: -3px -3px 7px grey;
-  max-height: 50%;
-
-  height: 900px;
-  margin-bottom: 300px;
-  border-bottom: 3px red solid;
-}
-
-.pdctImg img {
-  max-width: 300px;
-  max-height: 300px:;
-}
-
-div#content {
-  text-align: center;
-  position: relative;
-  top: 150px;
-  min-height: 500px;
-  z-index: 50;
-  margin-bottom: 20px;
-  width: 100%;
-
-
-  background-color: white;
-  opacity: 0.8;
-}
-
-footer {
-  margin-top: 300px;
-}*/
 
 /*Class for when element is above threshold*/
 .pin-top {
@@ -123,6 +45,20 @@ footer {
 /*Class for when element is pinned*/
 .pinned {
   position: fixed !important;
+}
+
+#home-slider {
+  min-height: 700px;
+}
+
+#home-slider .item{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+  width: 100%;
+  right: -20px;
 }
 
 /*.about {

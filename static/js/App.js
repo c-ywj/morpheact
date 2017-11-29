@@ -12,16 +12,32 @@ $().ready(() => {
   //   }
   // });
 
+    //#main-slider
+  // const slideHeight = $(window).height();
+  // $('#home-slider .item').css('height',slideHeight);
+
+  // $(window).resize(function(){'use strict',
+  //   $('#home-slider .item').css('height',slideHeight);
+  // });
 
   $('.pushpin-nav').each(function() {
-    var $this = $(this);
-    var $target = $('#' + $(this).attr('data-target'));
+    const $this = $(this);
+    const $target = $('#' + $(this).attr('data-target'));
     $this.pushpin({
       top: $target.offset().top,
       bottom: $target.offset().top + $target.outerHeight() - $this.height()
     });
   });
 
+
+  //Scroll Menu
+  // $(window).on('scroll', function(){
+  //   if( $(window).scrollTop()>slideHeight ){
+  //     $('.main-nav').addClass('navbar-fixed-top');
+  //   } else {
+  //     $('.main-nav').removeClass('navbar-fixed-top');
+  //   }
+  // });
 
 
 })
