@@ -20,6 +20,16 @@ $().ready(() => {
   //   $('#home-slider .item').css('height',slideHeight);
   // });
 
+  // const windowHeight = window.innerHeight;
+  // const windowWidth = window.innerWidth;
+
+  // window.onload = () => {
+  //   console.log(windowHeight);
+  //   const varX = $('#home-slider');
+  //   varX.css("min-height", "2000px");
+
+  // };
+
   $('.pushpin-nav').each(function() {
     const $this = $(this);
     const $target = $('#' + $(this).attr('data-target'));
@@ -40,4 +50,4 @@ $().ready(() => {
   // });
 
 
-})
+});
