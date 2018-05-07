@@ -38,7 +38,7 @@ h1 {
 }
 
 #home-slider {
-  min-height: 700px;
+  min-height: 100vh;
 }
 
 .carousel-inner {
