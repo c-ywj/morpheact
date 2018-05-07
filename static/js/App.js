@@ -12,26 +12,9 @@ $().ready(() => {
   //   }
   // });
 
-    //#main-slider
-  // const slideHeight = $(window).height();
-  // $('#home-slider .item').css('height',slideHeight);
-
-  // $(window).resize(function(){'use strict',
-  //   $('#home-slider .item').css('height',slideHeight);
-  // });
-
-  // const windowHeight = window.innerHeight;
-  // const windowWidth = window.innerWidth;
-
-  // window.onload = () => {
-  //   console.log(windowHeight);
-  //   const varX = $('#home-slider');
-  //   varX.css("min-height", "2000px");
-
-  // };
-
   $('.pushpin-nav').each(function() {
     const $this = $(this);
+    console.log($this);
     const $target = $('#' + $(this).attr('data-target'));
     $this.pushpin({
       top: $target.offset().top,

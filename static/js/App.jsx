@@ -8,30 +8,49 @@ import MainContent from './components/MainContent.jsx';
 
 class App extends Component {
 
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
       this.state = {
         color : "blackkkkk",
         name : "cy",
-        pics: {
-        }
+        position: "999"
     }
+    this.positionUpdater = this.positionUpdater.bind(this);
+    this.newPosition     = this.newPosition.bind(this);
   }
 
-  userInput(ev) {
-    this.setState({
-      name: ev.target.value
-    });
+  componentWillMount() {
+    console.log('component will mount..');
   }
+
+  positionUpdater(ev) {
+    ev.preventDefault();
+    let value = ev.target.value;
+    console.log(`this is the ev value ${value}`);
+    this.setState({
+      position: value
+    })
+  }
+
+  newPosition() {
+    let newValue = this.state.position;
+    console.log(newValue);
+    return (
+      <span>{newValue}</span>
+    );
+  }
+
 
   render() {
+    console.log('rendered');
     console.log(this.state);
     return (
       <div>
         <Header />
-        <MainContent userInput={this.userInput.bind(this)}
-                     currentName={this.state.name}
-         />
+        <MainContent
+          currentValue = {this.state.position}
+          updatePosition = {this.positionUpdater}
+          newPosition = {this.newPosition}/>
         <Footer />
       </div>
     )

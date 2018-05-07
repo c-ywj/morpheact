@@ -1,17 +1,12 @@
 
-html, body, .block {
+.block {
   height: 500px;
-}
-
-div.sectionOne {
-  height: 500px;
-  background-color: #C0C0C0;
 }
 
 .parallax {
 
   background-image: url('/static/images/parallax1.jpg');
-  min-height: 500px;
+  min-height: 800px;
 
   background-attachment: fixed;
   background-size: cover;
@@ -20,11 +15,6 @@ div.sectionOne {
 
   margin: 0 auto;
 
-}
-
-div.sectionTwo {
-  height: 490px;
-  background-color: grey;
 }
 
 h1 {
@@ -51,16 +41,29 @@ h1 {
   min-height: 700px;
 }
 
+.carousel-inner {
+  min-height: inherit;
+}
+
 #home-slider .item{
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 700px;
+  min-height: inherit;
   width: 100%;
   right: -20px;
 }
 
+div.sectionOne {
+  height: 500px;
+  background-color: #C0C0C0;
+}
+
+div.sectionTwo {
+  height: 490px;
+  background-color: grey;
+}
 /*.about {
   height: 500px;
   margin: 0 auto;

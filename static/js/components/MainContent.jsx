@@ -20,6 +20,16 @@ class MainContent extends Component {
               <li><a href="badges.html">Components</a></li>
               <li><a href="collapsible.html">JavaScript</a></li>
               </ul>
+              <br/>
+              <p>
+                position: {this.props.newPosition()}
+              </p>
+              <form>
+                <input type='text'
+                       placeholder='new position'
+                       onChange={this.props.updatePosition}/>
+                <button type='submit'>update position</button>
+              </form>
             </div>
           </nav>
         </div>
