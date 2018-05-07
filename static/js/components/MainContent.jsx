@@ -60,8 +60,8 @@ class MainContent extends Component {
           </nav>
         </div>
 
-        <div className='sectionTwo'>
-          <h1>section two</h1>
+        <div className='sectionOne'>
+          <h1>section one</h1>
         </div>
                 <div className='sectionTwo'>
           <h1>section two</h1>

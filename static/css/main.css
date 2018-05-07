@@ -37,27 +37,25 @@ h1 {
   position: fixed !important;
 }
 
-#home-slider {
-  min-height: 100vh;
-}
-
+#home-slider,
 .carousel-inner {
-  min-height: inherit;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
-#home-slider .item{
+.carousel-inner .item{
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: inherit;
-  width: 100%;
+  width: inherit;
   right: -20px;
 }
 
 div.sectionOne {
   height: 500px;
-  background-color: #C0C0C0;
+  background-color: white;
 }
 
 div.sectionTwo {

@@ -22745,11 +22745,11 @@ var MainContent = function (_Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'sectionTwo' },
+          { className: 'sectionOne' },
           _react2.default.createElement(
             'h1',
             null,
-            'section two'
+            'section one'
           )
         ),
         _react2.default.createElement(
