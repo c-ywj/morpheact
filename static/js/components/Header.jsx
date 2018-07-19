@@ -9,8 +9,8 @@ class Header extends Component {
           <div className="carousel-inner">
             <div className="item active" style={{backgroundImage: 'url(/static/images/gt3rs.jpg)'}}>
               <div className="caption">
-                <h1 className="animated fadeInLeftBig">Welcome to <span>Oxygen</span></h1>
-                <p className="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+                <h1 className="animated fadeInUpBig">Welcome to CY portfolio</h1>
+                <p className="animated fadeInRightBig">this is description</p>
                 <a data-scroll className="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
               </div>
             </div>

@@ -22291,18 +22291,13 @@ var Header = function (_Component) {
                 { className: "caption" },
                 _react2.default.createElement(
                   "h1",
-                  { className: "animated fadeInLeftBig" },
-                  "Welcome to ",
-                  _react2.default.createElement(
-                    "span",
-                    null,
-                    "Oxygen"
-                  )
+                  { className: "animated fadeInUpBig" },
+                  "Welcome to CY portfolio"
                 ),
                 _react2.default.createElement(
                   "p",
                   { className: "animated fadeInRightBig" },
-                  "Bootstrap - Responsive Design - Retina Ready - Parallax"
+                  "this is description"
                 ),
                 _react2.default.createElement(
                   "a",

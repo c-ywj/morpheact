@@ -13,7 +13,7 @@ class App extends Component {
       this.state = {
         color : "blackkkkk",
         name : "cy",
-        position: "999"
+        position: "777"
     }
     this.positionUpdater = this.positionUpdater.bind(this);
     this.newPosition     = this.newPosition.bind(this);
